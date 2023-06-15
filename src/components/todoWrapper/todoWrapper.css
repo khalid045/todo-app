@@ -1,0 +1,12 @@
+.todoWrapper {
+  width: 700px;
+  height: 600px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  box-shadow: -2px 15px 25px 7px rgba(25, 25, 23, 0.38);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}

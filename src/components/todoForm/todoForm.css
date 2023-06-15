@@ -1,0 +1,44 @@
+.todoForm {
+  height: auto;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+  box-shadow: -2px 15px 25px 7px aqua;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.todoInput {
+  width: 80%;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+}
+.todoInput:focus {
+  outline: none;
+}
+
+.inputCont {
+  height: 40px;
+  width: 400px;
+  background-color: aqua;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 30px;
+  box-shadow: -2px 15px 25px 7px rgba(10, 30, 128, 0.86);
+  margin-bottom: 30px;
+}
+.todoBTN {
+  width: 35%;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+}
+.todoBTN:hover {
+  background-color: bisque;
+}
